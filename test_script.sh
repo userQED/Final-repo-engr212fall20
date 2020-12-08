@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File: test_script.sh
 
-read number
+number=$1
 
 if [[ $number -eq 19 ]]
 then
